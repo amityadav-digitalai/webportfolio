@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ifm-background-color: #ffffff;
+    --ifm-font-color-base: #3b485c;
+
+    --ifm-color-primary-lightest: #aa3a21;
+    --ifm-color-primary-lighter: #ce4728;
+    --ifm-color-primary-light: #d64d2f;
+    --ifm-color-primary: #db6247;
+    --ifm-color-primary-dark: #e0775f;
+    --ifm-color-primary-darker: #e2816b;
+    --ifm-color-primary-darkest: #e9a090;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  }
+
+  [data-theme='dark'] {
+    --ifm-background-color: hsl(217, 30%, 19%);
+    --ifm-font-color-base: #f3f5f6;
+
+    --ifm-color-primary-darkest: #aa3a21;
+    --ifm-color-primary-darker: #ce4728;
+    --ifm-color-primary-dark: #d64d2f;
+    --ifm-color-primary: #db6247;
+    --ifm-color-primary-light: #e0775f;
+    --ifm-color-primary-lighter: #e2816b;
+    --ifm-color-primary-lightest: #e9a090;
+  }
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: theme('borderColor.DEFAULT', currentColor);
+  }
+
+  ::before,
+  ::after {
+    --tw-content: '';
+  }
+}
+
+.menu__list {
+  transition: height 0.2s linear !important;
+}
+
+.menu__list-item {
+  padding: 8px 16px;
+}
+
+.menu__list-item .menu__list-item {
+  border-bottom: none;
+  padding: 0;
+}
+
+.menu__list-item .menu__list-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.menu__list-item .menu__list-item .menu__link {
+  color: var(--ifm-menu-color);
+}
+
+.menu__list-item:not(:first-child),
+.table-of-contents > li:first-child {
+  margin-top: 0;
+}
+
+.menu__link,
+.menu__list-item-collapsible {
+  border-radius: 12px;
+}
+
+.menu__link {
+  color: var(--ifm-navbar-link-color);
+  letter-spacing: -0.084px;
+  line-height: 100%;
+  padding: 12px;
+}
+
+.menu__link--active {
+  color: #db6247 !important;
+  border: none !important;
+  transition: none;
+}
+
+.menu__link--active:hover {
+  color: var(--ifm-menu-color-active);
+}
+
+.menu__list-item-collapsible {
+  font-weight: 600;
+}
+
+.menu__caret {
+  border-radius: 12px;
+}
+
+.navbar__link {
+  border-radius: 16px;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+a.navbar__item:hover {
+  color: var(--ifm-navbar-link-color);
+}
+.navbar__link {
+  padding: 5px 15px;
+}
+
+.navbar__link--active,
+.navbar__link:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  text-decoration: none;
+}
+
+.navbar .navbar__inner {
+  margin: 0 auto;
+  max-width: 1536px;
+}

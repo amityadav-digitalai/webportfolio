@@ -1,0 +1,1686 @@
+{
+  "docs": {
+    "Release 22.1": [
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "teamforge-overview",
+            "label": "Overview"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Release Notes",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-new",
+            "label": "What's New?"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-fixedissues",
+            "label": "What's Fixed?"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-known",
+            "label": "Known Issues"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/siteoptionschangelog",
+            "label": "Site Options Change Log"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/apichangelog",
+            "label": "API Change Log"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "End-of-Life Policy",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "eol",
+            "label": "End-of-Life Policy"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Plan Install / Upgrade",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "installpages/plan_your_installation_upgrade",
+            "label": "Plan Your Installation / Upgrade"
+          },
+          {
+            "type": "doc",
+            "id": "installpages/requirements",
+            "label": "Installation Requirements"
+          },
+          {
+            "type": "doc",
+            "id": "setupnetworking",
+            "label": "Set up Networking"
+          },
+          {
+            "type": "doc",
+            "id": "generatesslcerts",
+            "label": "Generate SSL certificates"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Install",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "installpages/allinoneserver_rhel_centos",
+            "label": "Single Server Installation"
+          },
+          {
+            "type": "doc",
+            "id": "installpages/distributed_install_rhel_centos",
+            "label": "Multi-host Installation"
+          },
+          {
+            "type": "doc",
+            "id": "installpages/install_teamforge_with_oracle",
+            "label": "TeamForge with Oracle"
+          },
+          {
+            "type": "doc",
+            "id": "installpages/dbdm-on-nonctfmanaged-postgresserver",
+            "label": "TeamForge with External PostgreSQL Server"
+          },
+          {
+            "type": "doc",
+            "id": "loadbalancing",
+            "label": "TeamForge Load Balancing Setup"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Upgrade",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "upgradepages/new_hardware_upgrade_single_server",
+            "label": "New Hardware/Single Server"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/new_hardware_upgrade_multi_host",
+            "label": "New Hardware/Multi-host"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/same_hardware_upgrade_single_server",
+            "label": "Same Hardware/Single Server"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/same_hardware_upgrade_multi_host",
+            "label": "Same Hardware/Multi-host"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/upgrade_teamforge_with_oracle",
+            "label": "Same Hardware/Oracle Database"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/movedbdmintoonepginstance",
+            "label": "Create a Single Cluster for Both Database and Datamart"
+          },
+          {
+            "type": "doc",
+            "id": "upgradepages/backupandrestore",
+            "label": "Back up and Restore TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "eventqendoflife",
+            "label": "EventQ End of Life"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Post Install / Upgrade",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "teamforgelicense",
+            "label": "TeamForge License"
+          },
+          {
+            "type": "doc",
+            "id": "customize",
+            "label": "Customize TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "setupselinux",
+            "label": "Set up SELinux"
+          },
+          {
+            "type": "doc",
+            "id": "installmemcached",
+            "label": "Install Memcached"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "TeamForge Webhooks-based Event Broker",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "WEBRPages/webhooks-event-broker-overview",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/install-webhooks-event-broker",
+            "label": "Installation"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/webhooks-event-broker-settings",
+            "label": "Settings"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/webconnectui",
+            "label": "TeamForge WebConnect UIs"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/topic-event-type",
+            "label": "TOPIC Event Type"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/sync-event-type",
+            "label": "SYNC Event Type"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/queue-event-type",
+            "label": "QUEUE Event Type"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/scripts_filters",
+            "label": "Scripts and Filters"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/teamforge-jenkins-integration",
+            "label": "TeamForge—Jenkins Integration"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/teamforge-jira-integration",
+            "label": "TeamForge—JIRA Integration"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/teamforge-testlink-integration",
+            "label": "TeamForge—TestLink Integration"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/configuremavenplugin",
+            "label": "TeamForge Maven Deploy Plugin"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/integrationsviawebhooks",
+            "label": "Integrate Tools Using Post-submit Webhooks"
+          },
+          {
+            "type": "doc",
+            "id": "WEBRPages/webr-orchestration",
+            "label": "Integrate Tools Using WEBR Orchestration Scripts"
+          },
+          {
+            "type": "doc",
+            "id": "apidoclinks",
+            "label": "WEBR API Documentation"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Git Integration",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "gitoverview",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "setupgitreplica",
+            "label": "Set up Git Replica Servers"
+          },
+          {
+            "type": "doc",
+            "id": "scm-gerrit-slack-integration",
+            "label": "Set up Git—Slack Integration"
+          },
+          {
+            "type": "doc",
+            "id": "setuplfs",
+            "label": "Set up LFS"
+          },
+          {
+            "type": "doc",
+            "id": "codereviewpolicy",
+            "label": "Code Review Policy"
+          },
+          {
+            "type": "doc",
+            "id": "historyprotect",
+            "label": "History Protection"
+          },
+          {
+            "type": "doc",
+            "id": "gitreference",
+            "label": "References"
+          },
+          {
+            "type": "doc",
+            "id": "mass-repo-policy-settings",
+            "label": "Mass Configuration of Repository Policies"
+          },
+          {
+            "type": "doc",
+            "id": "qualitygates",
+            "label": "Quality Gates and Review Rules"
+          },
+          {
+            "type": "doc",
+            "id": "userfilterremoval",
+            "label": "UserFilter Removal"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Review Board Integration",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "RBPages/install_review_board",
+            "label": "Install Review Board"
+          },
+          {
+            "type": "doc",
+            "id": "RBPages/upgrade_review_board",
+            "label": "Upgrade Review Board"
+          },
+          {
+            "type": "doc",
+            "id": "RBPages/iaf-reviewboard-add",
+            "label": "Add Review Board to Projects"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Nexus Integration",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "IntegrationPages/managebinaries",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "IntegrationPages/installnexus",
+            "label": "Install Nexus"
+          },
+          {
+            "type": "doc",
+            "id": "IntegrationPages/installnexusplugin",
+            "label": "Install or Upgrade the TeamForge—Nexus Integration Plugin"
+          },
+          {
+            "type": "doc",
+            "id": "IntegrationPages/iaf-binaries-add",
+            "label": "Add Binaries to TeamForge Projects"
+          },
+          {
+            "type": "doc",
+            "id": "IntegrationPages/managebinaryrepos",
+            "label": "Manage Binary Repositories"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Site Administration",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "siteadminoverview",
+            "label": "Overview"
+          },
+          {
+            "type": "category",
+            "label": "Manage Site-wide Roles",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "createadditionalsiteadministrators",
+                "label": "Create Additional Site Administrators"
+              },
+              {
+                "type": "doc",
+                "id": "modifyadditionalsiteadministratorprivileges",
+                "label": "Modify Additional Site Administrator Privileges"
+              },
+              {
+                "type": "doc",
+                "id": "makeselectedusersasadditionalsiteadministrators",
+                "label": "Make Selected Users as Additional Site Administrators"
+              },
+              {
+                "type": "doc",
+                "id": "giveproject-independentaccessforprojecttools",
+                "label": "Give Project-independent Access for Project Tools"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Manage SCM Tools",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "integrateasourcecodeserver",
+                "label": "Integrate a Source Code Server"
+              },
+              {
+                "type": "doc",
+                "id": "changethescmviewerpassword",
+                "label": "Change the scmviewer Password"
+              },
+              {
+                "type": "doc",
+                "id": "synchronizeteamforgesourcecontrolintegrations",
+                "label": "Synchronize TeamForge Source Control Integrations"
+              },
+              {
+                "type": "doc",
+                "id": "approveorrejectasourcecontrolrepositoryrequest",
+                "label": "Approve or Reject a Source Control Repository Request"
+              },
+              {
+                "type": "doc",
+                "id": "approveorrejectanunmanagedscmserveraccessrequest",
+                "label": "Approve or Reject an Unmanaged SCM Server Access Request"
+              },
+              {
+                "type": "doc",
+                "id": "approveorrejectrepositorydeleterequests",
+                "label": "Approve or Reject Repository Delete Requests"
+              },
+              {
+                "type": "doc",
+                "id": "editscmintegrationdetails",
+                "label": "Edit SCM Integration Details"
+              },
+              {
+                "type": "doc",
+                "id": "moveasourcecoderepository",
+                "label": "Move a Source Code Repository"
+              },
+              {
+                "type": "doc",
+                "id": "connecttoasubversionedgeconsole",
+                "label": "Connect to a Subversion Edge Console"
+              },
+              {
+                "type": "doc",
+                "id": "managereplicas",
+                "label": "Manage Replicas"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Manage Global Roles",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "globalroles",
+                "label": "What is a global project role?"
+              },
+              {
+                "type": "doc",
+                "id": "createaglobalprojectrole",
+                "label": "Create a Global Project Role"
+              },
+              {
+                "type": "doc",
+                "id": "modifyaglobalprojectrole",
+                "label": "Modify a Global Project Role"
+              },
+              {
+                "type": "doc",
+                "id": "deleteaglobalprojectrole",
+                "label": "Delete a Global Project Role"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Manage Projects",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "createanewproject",
+                "label": "Create and Manage Projects"
+              },
+              {
+                "type": "doc",
+                "id": "manageprojectcategories",
+                "label": "Create and Manage Project Categories"
+              },
+              {
+                "type": "doc",
+                "id": "manageprojects-addparentproject",
+                "label": "Add a Parent Project to Your Project"
+              },
+              {
+                "type": "doc",
+                "id": "separateasubprojectfromitsparentproject",
+                "label": "Separate a Subproject from Its Parent Project"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Manage Project Groups",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "createadditionalsiteadministrators",
+                "label": "Create a Project Group"
+              },
+              {
+                "type": "doc",
+                "id": "editaprojectgroup",
+                "label": "Edit a Project Group"
+              },
+              {
+                "type": "doc",
+                "id": "deleteaprojectgroup",
+                "label": "Delete a Project Group"
+              },
+              {
+                "type": "doc",
+                "id": "addprojectstoaprojectgroup",
+                "label": "Add Projects to a Project Group"
+              },
+              {
+                "type": "doc",
+                "id": "manageusermembershipforaorojectgroup",
+                "label": "Manage User Membership for a Project Group"
+              },
+              {
+                "type": "doc",
+                "id": "manageusersaccesstoprojectgroups",
+                "label": "Manage User Access to Project Groups"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Manage Users",
+            "collapsed": true,
+            "items": [
+              {
+                "type": "doc",
+                "id": "createasingleuseraccount",
+                "label": "Create a Single User Account"
+              },
+              {
+                "type": "doc",
+                "id": "createmultipleuseraccounts",
+                "label": "Create Multiple User Accounts"
+              },
+              {
+                "type": "doc",
+                "id": "edituseraccounts",
+                "label": "Edit User Accounts"
+              },
+              {
+                "type": "doc",
+                "id": "findauser",
+                "label": "Find a User"
+              },
+              {
+                "type": "doc",
+                "id": "manageusergroups",
+                "label": "Manage User Groups"
+              },
+              {
+                "type": "doc",
+                "id": "resettheadminaccountpassword",
+                "label": "Reset the Admin Account Password"
+              },
+              {
+                "type": "doc",
+                "id": "viewallrolesassignedtoauser",
+                "label": "View All Roles Assigned to a User"
+              }
+            ]
+          },
+          {
+            "type": "doc",
+            "id": "manageemails",
+            "label": "Manage Email Settings"
+          },
+          {
+            "type": "doc",
+            "id": "monitorsite",
+            "label": "Monitor Your Site"
+          },
+          {
+            "type": "doc",
+            "id": "externalapplications",
+            "label": "Integrate or Link External Applications"
+          },
+          {
+            "type": "doc",
+            "id": "sslforintegrations",
+            "label": "Protect Integrations with SSL"
+          },
+          {
+            "type": "doc",
+            "id": "projecttemplates",
+            "label": "Manage Project Templates"
+          },
+          {
+            "type": "doc",
+            "id": "reports-schedule",
+            "label": "Schedule Data Extraction for Reporting"
+          },
+          {
+            "type": "doc",
+            "id": "siteadmin-adhocquery",
+            "label": "Ad Hoc Database Query"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Project Administration",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "getstarted-cubit_getandlink",
+            "label": "Set up Hardware"
+          },
+          {
+            "type": "doc",
+            "id": "reallocate",
+            "label": "Reallocate a System"
+          },
+          {
+            "type": "doc",
+            "id": "scope",
+            "label": "Define the Scope of Your Project"
+          },
+          {
+            "type": "doc",
+            "id": "project_edit",
+            "label": "Edit a Project"
+          },
+          {
+            "type": "doc",
+            "id": "creatingaprojecttemplate",
+            "label": "Create a Project Template"
+          },
+          {
+            "type": "doc",
+            "id": "projectadmin-categorizingaproject",
+            "label": "Categorize a Project"
+          },
+          {
+            "type": "doc",
+            "id": "externalapplicationsforprojects",
+            "label": "Integrate or Link External Applications to Projects"
+          },
+          {
+            "type": "doc",
+            "id": "getstarted-adduserstoproject",
+            "label": "Add Users to a Project"
+          },
+          {
+            "type": "doc",
+            "id": "projectadmin-removinguserfromaproject",
+            "label": "Remove a User from a Project"
+          },
+          {
+            "type": "doc",
+            "id": "projectadmin-handlingarequestforprojectmem",
+            "label": "Handle a Request for Project Membership"
+          },
+          {
+            "type": "doc",
+            "id": "projectadmin-handlingarequesttoleaveaproj",
+            "label": "Handle a Request to Leave a Project"
+          },
+          {
+            "type": "doc",
+            "id": "restrictprofiles",
+            "label": "Restrict Users in Using Profiles in a Project"
+          },
+          {
+            "type": "doc",
+            "id": "addparentproject",
+            "label": "Add a Parent Project to Your Project"
+          },
+          {
+            "type": "doc",
+            "id": "changeorremoveaparentproject",
+            "label": "Separate a Subproject from its Parent Project"
+          },
+          {
+            "type": "doc",
+            "id": "projectsite",
+            "label": "Build Your Project Pages (Project Page Component, Publishing Repository)"
+          },
+          {
+            "type": "doc",
+            "id": "projectadmin-controllingprojectaccess",
+            "label": "Control Project Access - Create a Role Based Access Control (RBAC)"
+          },
+          {
+            "type": "doc",
+            "id": "tagmanagement",
+            "label": "Set up Tags"
+          },
+          {
+            "type": "doc",
+            "id": "uat",
+            "label": "Monitor Project Output"
+          },
+          {
+            "type": "doc",
+            "id": "uploadbuild",
+            "label": "Upload Build to Project Build Library"
+          },
+          {
+            "type": "doc",
+            "id": "allowclouds",
+            "label": "Allocate Public Cloud Hosts in a Project"
+          },
+          {
+            "type": "doc",
+            "id": "provisionCIserver",
+            "label": "Provision a Continuous Integration Server from a Lab Management Cloud"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "TeamForge Baselines",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "BaselinePages/baseline-overview",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/create-baseline-def",
+            "label": "Create and View Baseline Definitions"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/edit-baseline-def",
+            "label": "Edit Baseline Definitions"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/create-baseline",
+            "label": "Create and View Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/edit-baseline",
+            "label": "Edit Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/baseline-review-approval-workflow",
+            "label": "Review Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/compare-baselines",
+            "label": "Compare Baselines and Baseline Definition"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/search-baseline",
+            "label": "Search Baselines and Baseline Definition"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/delete-baselines",
+            "label": "Delete Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/project-baseline-definition",
+            "label": "Create/Edit Project Baseline Definition"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/create-project-baseline",
+            "label": "Create and View Project Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/generate-baseline-package",
+            "label": "Generate Baseline Packages"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/baseline-settings",
+            "label": "Baseline Settings"
+          },
+          {
+            "type": "doc",
+            "id": "BaselinePages/binary-repo-caching",
+            "label": "Enable Caching for Baselines"
+          },
+          {
+            "type": "doc",
+            "id": "apidoclinks",
+            "label": "Baselines API Documentation"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Join TeamForge",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "getstarted-joinasite",
+            "label": "Join a TeamForge/Log on"
+          },
+          {
+            "type": "doc",
+            "id": "changepassword",
+            "label": "Change a Password"
+          },
+          {
+            "type": "doc",
+            "id": "mypage",
+            "label": "My Workspace"
+          },
+          {
+            "type": "doc",
+            "id": "getstarted-identify",
+            "label": "My Settings"
+          },
+          {
+            "type": "doc",
+            "id": "getstarted-joinaproject",
+            "label": "Join a TeamForge Project"
+          },
+          {
+            "type": "doc",
+            "id": "search-keyword",
+            "label": "Jump to ID / Advanced Search"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Projects",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "creatingaproject",
+            "label": "Create Project"
+          },
+          {
+            "type": "doc",
+            "id": "projectdashboardpage",
+            "label": "View Project Dashboard"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Trackers",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "trackers-creatingatracker",
+            "label": "Set up Trackers"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-creatingatrackerartifact",
+            "label": "Create Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-editingtrackerartifact",
+            "label": "Edit Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "html-emails",
+            "label": "HTML EMails for Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "unmonitorartifactsviaemail",
+            "label": "Unmonitor Artifacts via HTML EMails"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-cloneanartifact",
+            "label": "Clone a Tracker Artifact"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-movingatrackerartifact",
+            "label": "Move a Tracker Artifact"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-filteringtrackerartifacts",
+            "label": "Filter Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-searchfortrackerartifacts",
+            "label": "Find Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-associatingtrackerartifactswithotheritems",
+            "label": "Associate Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackerartifactdependency",
+            "label": "Create Dependent Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-importingtrackerartifacts",
+            "label": "Import Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "trackers-exportingtrackerartifacts",
+            "label": "Export Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "assigntoplanningfolder",
+            "label": "Schedule Work on an Artifact"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Planning Folders",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "planningfolder",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "creatingplanningfolder",
+            "label": "Create a Planning Folder"
+          },
+          {
+            "type": "doc",
+            "id": "updateplanningfolder",
+            "label": "Update a Planning Folder"
+          },
+          {
+            "type": "doc",
+            "id": "reorderplanningfolders",
+            "label": "Reorder Planning Folders"
+          },
+          {
+            "type": "doc",
+            "id": "reorderplanningfoldercontent",
+            "label": "Reorder the Contents of a Planning Folder"
+          },
+          {
+            "type": "doc",
+            "id": "moveplanningfolder",
+            "label": "Move a Planning Folder"
+          },
+          {
+            "type": "doc",
+            "id": "exportplanningfolderartifacts",
+            "label": "Export Planning Folder Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "planningfolderstatus",
+            "label": "Manage Statuses for a Planning Folder"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Teams",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "team",
+            "label": "Manage Your Project Teams"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Boards",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "setup_planningboard",
+            "label": "Set up Planning Board"
+          },
+          {
+            "type": "doc",
+            "id": "cards_planningboard",
+            "label": "Work with Artifact Cards"
+          },
+          {
+            "type": "doc",
+            "id": "configtaskboard",
+            "label": "Set up Task Board"
+          },
+          {
+            "type": "doc",
+            "id": "usetaskboard",
+            "label": "Use Task Board"
+          },
+          {
+            "type": "doc",
+            "id": "configkanbanboard",
+            "label": "Set up Kanban Board"
+          },
+          {
+            "type": "doc",
+            "id": "usekanbanboard",
+            "label": "Use Kanban Board"
+          },
+          {
+            "type": "doc",
+            "id": "pb_teamview",
+            "label": "Team View in Planning Board"
+          },
+          {
+            "type": "doc",
+            "id": "tb_teamview",
+            "label": "Team View in Task Board"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Source Code",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "internalcodebrowser",
+            "label": "Work with the Internal Code Browser"
+          },
+          {
+            "type": "doc",
+            "id": "createasourcecoderepository",
+            "label": "Create a Source Code Repository"
+          },
+          {
+            "type": "doc",
+            "id": "import-git-repo",
+            "label": "Import External Git Repositories into TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "linkifycustomobjectids",
+            "label": "Linkify Custom Object IDs in Code Browser"
+          },
+          {
+            "type": "doc",
+            "id": "replicatearepository",
+            "label": "Replicate a Subversion Repository"
+          },
+          {
+            "type": "doc",
+            "id": "viewcodecommits",
+            "label": "View Code Commits"
+          },
+          {
+            "type": "doc",
+            "id": "associatecodecommits",
+            "label": "Associate Code Commits"
+          },
+          {
+            "type": "doc",
+            "id": "checkcommandhistory",
+            "label": "Check Command History"
+          },
+          {
+            "type": "doc",
+            "id": "checkoutcode",
+            "label": "Check Out Code"
+          },
+          {
+            "type": "doc",
+            "id": "getcode",
+            "label": "Get the Code"
+          },
+          {
+            "type": "doc",
+            "id": "pullrequest",
+            "label": "Review Code"
+          },
+          {
+            "type": "doc",
+            "id": "searchcode",
+            "label": "Search Code"
+          },
+          {
+            "type": "doc",
+            "id": "deletesourcecoderepository",
+            "label": "Delete a Source Code Repository"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Documents",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "documents_admin",
+            "label": "Manage the Document Settings"
+          },
+          {
+            "type": "doc",
+            "id": "documents",
+            "label": "Work with Your Documents"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Discussion Forums",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "forums",
+            "label": "Discussion Forums"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Wiki",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "wiki",
+            "label": "Contribute to Project Wiki"
+          },
+          {
+            "type": "doc",
+            "id": "requirewikicomment",
+            "label": "Mandate Comments for Wiki Changes"
+          },
+          {
+            "type": "doc",
+            "id": "wiki-wikisyntax",
+            "label": "Wiki Syntax"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "News",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "news",
+            "label": "Project News"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "File Releases and Packages",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "releases",
+            "label": "File Releases and Packages"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Monitor",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "monitoring",
+            "label": "Monitoring Activities in TeamForge"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Reports",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "reports",
+            "label": "Reporting in TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "reports-runningareport",
+            "label": "Run, Edit, Export or Delete a Report"
+          },
+          {
+            "type": "doc",
+            "id": "reporting_datamart_overview",
+            "label": "Advanced Reporting and Datamart Access"
+          },
+          {
+            "type": "doc",
+            "id": "datamart-associations",
+            "label": "Tracker Associations Data in Datamart"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "External Authentication",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "identityinfo",
+            "label": "Overview"
+          },
+          {
+            "type": "doc",
+            "id": "teamforgeoauth",
+            "label": "OAuth 2.0"
+          },
+          {
+            "type": "doc",
+            "id": "saml",
+            "label": "SAML"
+          },
+          {
+            "type": "doc",
+            "id": "ldap-authentication",
+            "label": "LDAP"
+          },
+          {
+            "type": "doc",
+            "id": "saml-ldap-authentication",
+            "label": "SAML+LDAP"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "LDAP Authentication with Auth Manager",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "ldap-authmanager",
+            "label": "Set up TeamForge for LDAP Authentication with Auth Manager"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Webhooks",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "webhooksfortrackerartifacts",
+            "label": "Set up Webhooks for Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "webhooksforrepositories",
+            "label": "Set up Webhooks for Repositories"
+          },
+          {
+            "type": "doc",
+            "id": "webhooksforprojects",
+            "label": "Set up Webhooks for Projects"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Extend TeamForge",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "apidoclinks",
+            "label": "TeamForge API Documentation"
+          },
+          {
+            "type": "doc",
+            "id": "extend_teamforge_overview",
+            "label": "An Overview"
+          },
+          {
+            "type": "doc",
+            "id": "teamforgecustomeventhandlers",
+            "label": "Custom Event Handlers in TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "addcustomeventhandler",
+            "label": "Add a Custom Event Handler to Your TeamForge Site"
+          },
+          {
+            "type": "doc",
+            "id": "customeventhandlersreference",
+            "label": "Reference Information About Custom Event Handlers"
+          },
+          {
+            "type": "doc",
+            "id": "authenticateintegratedapp",
+            "label": "Authenticate your Integrated Application with TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "languagelocalization",
+            "label": "Internationalize Your Integrated Application"
+          },
+          {
+            "type": "doc",
+            "id": "teamforgesoapapiref",
+            "label": "TeamForge SOAP API Reference"
+          },
+          {
+            "type": "doc",
+            "id": "integratedappref",
+            "label": "Integrated Application References"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "AngularJS Customization",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "teamforgeangularjscustomization",
+            "label": "AngularJS Customization in TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "addangularjscustomization",
+            "label": "Add an AngularJS Customization to Your TeamForge Site"
+          },
+          {
+            "type": "doc",
+            "id": "teamforgeangularjscustomizationexamples",
+            "label": "AngularJS Customization Examples"
+          },
+          {
+            "type": "doc",
+            "id": "angularjscustomizationreference",
+            "label": "Reference Information for AngularJS Customization"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Site Options",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "siteconfigtokens",
+            "label": "TeamForge Services and Domain Configuration Tokens"
+          },
+          {
+            "type": "doc",
+            "id": "siteoptiontokens",
+            "label": "Site Option Tokens"
+          },
+          {
+            "type": "doc",
+            "id": "siteadmin-configuresiteviaui",
+            "label": "Configure Your Site's Settings"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Config Files",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "pebble-dep-xml",
+            "label": "Deployment Config File"
+          },
+          {
+            "type": "doc",
+            "id": "pebble-app-xml",
+            "label": "Application Config File"
+          },
+          {
+            "type": "doc",
+            "id": "login-config",
+            "label": "login-config.xml"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Scripts",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "scripts/backup-rb-data-py",
+            "label": "backup-rb-data.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/create_webhook_event_py",
+            "label": "create_webhook_event.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/db_py",
+            "label": "db.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/doc-update-fieldvalues-py",
+            "label": "doc-update-fieldvalues.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/domain_change_db_py",
+            "label": "domain_change_db.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/domain_change_webr_py",
+            "label": "domain_change_webr.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/etl_client_py",
+            "label": "etl-client.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/logger-db-query",
+            "label": "logger-db-query"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/passwordutil",
+            "label": "password_util.sh"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/psql-wrapper",
+            "label": "pasql-wrapper"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/psql-reporting-wrapper",
+            "label": "pasql-reporting-wrapper"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/restore-data-py",
+            "label": "restore-data.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/restore-rb-data-py",
+            "label": "restore-rb-data.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/searchreindex-py",
+            "label": "SearchReindex.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/task-data-export-py",
+            "label": "task-data-export.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/teamforgescript",
+            "label": "teamforge.py"
+          },
+          {
+            "type": "doc",
+            "id": "scripts/update_artifact_textflex_carriage_return_py",
+            "label": "pdate_artifact_textflex_carriage_return.py"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Logs",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "logfiles",
+            "label": "TeamForge Logs"
+          },
+          {
+            "type": "doc",
+            "id": "changeloglevel",
+            "label": "Change the Logging Level on Your Site"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "FAQ",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "FAQPages/conceptsandterms-faqs",
+            "label": "Concepts and Terms in TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/installupgradeadmin-faqs",
+            "label": "Install/Upgrade/Administration"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/security-faqs",
+            "label": "Security"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/rolesandpermissions-faqs",
+            "label": "Roles and Permissions in TeamForge"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/associations-faqs",
+            "label": "Associations"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/database-faqs",
+            "label": "Database/Datamart/ETL"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/discussions-faqs",
+            "label": "Discussions"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/documents-faqs",
+            "label": "Documents"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/projects-faqs",
+            "label": "Projects"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/planningfolder-faqs",
+            "label": "Planning Folder"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/trackers-faqs",
+            "label": "Trackers"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/trackerartifacts-faqs",
+            "label": "Tracker Artifacts"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/wiki-faqs",
+            "label": "Wiki"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/binaries-faqs",
+            "label": "Binaries"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/reviewboard-faqs",
+            "label": "Review Board"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/sourcecode-faqs",
+            "label": "Source Code (SCM)"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/gitgerrit-faqs",
+            "label": "Git/Gerrit/History Protection"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/search-faqs",
+            "label": "Search"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/customization-faqs",
+            "label": "Customization"
+          },
+          {
+            "type": "doc",
+            "id": "FAQPages/emails-faqs",
+            "label": "Emails"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Glossary",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "BaselinePages/baseline-glossary",
+            "label": "TeamForge Baseline"
+          }
+        ]
+      }
+    ]
+  }
+}
